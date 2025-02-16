@@ -6,7 +6,7 @@ public class NoGenericMethods {
     private Object secondArgument;
     private Object thirdArgument;
 
-    public NoGenericMethods(Object firstArgument, Object secondArgument, Object thirdArgument){
+    public NoGenericMethods(Object firstArgument, Object secondArgument, Object thirdArgument) {
 
         this.firstArgument = firstArgument;
         this.secondArgument = secondArgument;
@@ -36,12 +36,5 @@ public class NoGenericMethods {
     public void setThirdArgument(Object thirdArgument) {
         this.thirdArgument = thirdArgument;
     }
-
-    public Object getAllArguments(){
-        return "Primer Argumento: " + firstArgument + "\n" +
-        "Segundo Argumento: " + secondArgument + "\n" +
-        "Tercer Argumento: " + thirdArgument + "\n";
-    }
-
 
 }
