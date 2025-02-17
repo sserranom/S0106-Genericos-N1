@@ -1,4 +1,4 @@
-***S102. Exceptions - Ejercicio1 Nivel 1***
+***S106-Genericos-N1***
 
 - Ejercicio 1
 Crea una clase llamada NoGenericMethods que almacene tres argumentos del mismo tipo, junto con los métodos para almacenar y extraer estos objetos y un constructor para inicializar los tres.
